@@ -1,0 +1,30 @@
+Course:Course Management System using PHP/MySQLi
+
+About The Course
+The Course Management System is a simple system that can help a certain Institution manage its Courses progress. The system has 3 types of system users which are the Admin, Course lecture, and Student. The Admin user is those users that has an access to all of the data stored in the database of the system especially on creating and managing system users. The Course manager are those users that manage the Course details and progress under her/his management. The Student will submit their Progress in each Course of the Course which makes the system requires the Student to submit their start and end time range of their work on a certain Course and this data will be calculated in the report as Course members' work duration.
+
+How the System Works
+The Course Management System users can be only created by admin users. The admin user or the Course manager will create a new Course at first along with some important details and references of the users. When creating a Course, the admin or Course manager must list all the Students that will handle the Course's assignment. After the creation of the Course, the student are limited only to adding their progress for the assignment of the Course that they are assigned. They are also allowed to edit the data of the progress that they only submitted. Then, as the students regularly updating the system about the progress they have done the Course manager will read or scan their progress so the Course manager can check or decide if the certain Course is done and need to update the Course status in the system. For the printable report of the system, only the admin users and Course lecture has an access to this function or feature of the system.
+
+Features:
+Login Page
+Home Page
+Course (CRUD Features)
+Course List Page
+Progress Form
+Report Generation
+User (CRUD Features)
+etc.
+The Course Management System was developed using HTML, PHP/MySQLi, CSS, JavaScript (jQuery/Ajax), and Bootstrap for the design. The source code is fully functional and easy to modify or enhance. Follow the instruction below to have an actual experience using this simple Course.
+
+How to Run
+Download the source code and extract the zip file.
+Download or set up any local web server that runs PHP script.
+Open the web-server database and create a new database name it "tms_db".
+Import the SQL file located in the database folder of the source code.
+Copy and paste the source code to the location where your local web server accessing your local Courses. Example for XAMPP('C:\xampp\htdocs')
+Open a web browser and browse the Course. E.g [http://localhost/Course_management_system]
+Admin Access
+Email: admin@admin.com
+Password: admin123
+
